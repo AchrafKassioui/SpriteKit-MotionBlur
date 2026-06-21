@@ -18,9 +18,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* SpriteKit-MotionBlur */ = {
+		000000000000000000000010 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SpriteKit-MotionBlur";
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,7 +39,7 @@
 			children = (
 				DEB272CB2FE7809700823C7E /* README.md */,
 				DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */,
-				000000000000000000000010 /* SpriteKit-MotionBlur */,
+				000000000000000000000010 /* App */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* SpriteKit-MotionBlur */,
+				000000000000000000000010 /* App */,
 			);
 			name = "SpriteKit-MotionBlur";
 			productName = MyApp;
