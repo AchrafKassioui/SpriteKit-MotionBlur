@@ -28,5 +28,5 @@ The sprite is moved with a Proportional-Derivative (PD) physics-based controller
 
 ## Credits
 
-This is a pure SpriteKit, dependency-free version of this experiment:
+This is a pure SpriteKit version of this experiment:
 https://github.com/alexwidua/zoom-motion-blur
