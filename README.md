@@ -8,12 +8,16 @@ https://github.com/user-attachments/assets/8d2ff523-547e-41e8-aea6-716caa53d7b8
 
 ## Run The Demo
 
-This implementation is dependency-free. Download, build, and run. Or copy/paste SpriteMotionBlur.swift in your own project.
+The implementation is dependency-free. Download, build, and run.
 
 ## How It Works
 
-This scene implements per-sprite motion blur with a fragment shader. The sprite is larger than the visible shape, so the shader has transparent drawing room around the circle.
+This scene implements per-sprite motion blur with a fragment shader.
+
+The sprite size is larger than the visible shape, so the shader has transparent drawing room around the blurred shape.
+
 Each fragment samples the sprite texture several times along the current movement direction, then averages those samples into one final color. The scene updates the blur direction and length from the sprite physics velocity.
+
 The sprite is moved with a Proportional-Derivative (PD) physics-based controller.
 
 ## Findings
