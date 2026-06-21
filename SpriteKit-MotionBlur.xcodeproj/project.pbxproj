@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		DEB272CA2FE7806B00823C7E /* SpriteMotionBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */; };
 		DEB272CC2FE7809700823C7E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEB272CB2FE7809700823C7E /* README.md */; };
+		DEB272D32FE782C100823C7E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DEB272D12FE782C100823C7E /* LICENSE */; };
+		DEB272D42FE782C100823C7E /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = DEB272D22FE782C100823C7E /* NOTICE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* SpriteKit-MotionBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit-MotionBlur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteMotionBlur.swift; sourceTree = "<group>"; };
 		DEB272CB2FE7809700823C7E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEB272D12FE782C100823C7E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEB272D22FE782C100823C7E /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +41,8 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				DEB272D12FE782C100823C7E /* LICENSE */,
+				DEB272D22FE782C100823C7E /* NOTICE */,
 				DEB272CB2FE7809700823C7E /* README.md */,
 				DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */,
 				000000000000000000000010 /* App */,
@@ -111,6 +117,8 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				DEB272D32FE782C100823C7E /* LICENSE in Resources */,
+				DEB272D42FE782C100823C7E /* NOTICE in Resources */,
 				DEB272CC2FE7809700823C7E /* README.md in Resources */,
 			);
 		};
