@@ -12,7 +12,7 @@
  
  ## Findings
  
- - The motion blur effect works only if the sprite velocity changes continuously.
+ - The motion blur effect works provided the sprite velocity changes continuously.
  - If the sprite collides, the velocity direction would suddenly change, and the effect would break.
  - Performance depends on the GPU and sample count in the shader.
  
