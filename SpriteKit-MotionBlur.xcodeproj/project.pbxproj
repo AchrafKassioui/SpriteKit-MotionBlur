@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6F4BE3306DB39600130259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F4BE2306DB39600130259 /* ContentView.swift */; };
 		DEB272CA2FE7806B00823C7E /* SpriteMotionBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */; };
 		DEB272CC2FE7809700823C7E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEB272CB2FE7809700823C7E /* README.md */; };
 		DEB272D32FE782C100823C7E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DEB272D12FE782C100823C7E /* LICENSE */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* SpriteKit-MotionBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit-MotionBlur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6F4BE2306DB39600130259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteMotionBlur.swift; sourceTree = "<group>"; };
 		DEB272CB2FE7809700823C7E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEB272D12FE782C100823C7E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 				DEB272D22FE782C100823C7E /* NOTICE */,
 				DEB272CB2FE7809700823C7E /* README.md */,
 				DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */,
+				DE6F4BE2306DB39600130259 /* ContentView.swift */,
 				000000000000000000000010 /* App */,
 				000000000000000000000020 /* Products */,
 			);
@@ -128,6 +131,7 @@
 		000000000000000120000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				DE6F4BE3306DB39600130259 /* ContentView.swift in Sources */,
 				DEB272CA2FE7806B00823C7E /* SpriteMotionBlur.swift in Sources */,
 			);
 		};
@@ -271,6 +275,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2XS6FMGZT;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -293,7 +298,8 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -308,6 +314,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2XS6FMGZT;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -330,7 +337,8 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
