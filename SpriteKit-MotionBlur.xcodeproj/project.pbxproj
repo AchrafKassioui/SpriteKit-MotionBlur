@@ -23,14 +23,6 @@
 		DEB272D22FE782C100823C7E /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = App;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		000000000000000130000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -48,7 +40,6 @@
 				DEB272CB2FE7809700823C7E /* README.md */,
 				DEB272C92FE7806B00823C7E /* SpriteMotionBlur.swift */,
 				DE6F4BE2306DB39600130259 /* ContentView.swift */,
-				000000000000000000000010 /* App */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,9 +64,6 @@
 				000000000000000140000000 /* Resources */,
 			);
 			buildRules = (
-			);
-			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* App */,
 			);
 			name = "SpriteKit-MotionBlur";
 			productName = MyApp;
