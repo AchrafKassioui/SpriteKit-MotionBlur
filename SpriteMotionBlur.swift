@@ -75,7 +75,7 @@ struct SpriteMotionBlurView: View {
     
     /**
      
-     Custom slider because the native SwiftUI slider crashes on macOS when value reaches the edges.
+     Custom slider because the native SwiftUI slider crashes on macOS 27 Beta when value reaches the edges.
      
      */
     private struct HorizontalSlider: View {
